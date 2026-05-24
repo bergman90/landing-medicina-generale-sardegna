@@ -17,6 +17,7 @@ I materiali scaricabili definitivi andranno caricati in:
 - `assets/` per i JPEG della mobilitazione
 
 PDF lettera attuale: `materiali/lettera-regione-sardegna.pdf`.
+Manifesto attuale: `assets/manifesto-medicina-generale.png`.
 
 ## Pubblicazione su GitHub Pages
 
