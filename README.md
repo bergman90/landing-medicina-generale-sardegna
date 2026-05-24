@@ -16,6 +16,8 @@ I materiali scaricabili definitivi andranno caricati in:
 - `materiali/` per la lettera in PDF
 - `assets/` per i JPEG della mobilitazione
 
+PDF lettera attuale: `materiali/lettera-regione-sardegna.pdf`.
+
 ## Pubblicazione su GitHub Pages
 
 1. Crea un nuovo repository su GitHub.
