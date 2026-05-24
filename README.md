@@ -8,7 +8,7 @@ Landing page statica pronta per GitHub Pages.
 2. Sostituisci questo valore con il link reale del canale WhatsApp:
 
 ```html
-https://whatsapp.com/channel/INSERISCI-QUI-IL-TUO-CANALE
+https://whatsapp.com/channel/0029VbCn4oeHltY0nbMgj103
 ```
 
 I materiali scaricabili definitivi andranno caricati in:
