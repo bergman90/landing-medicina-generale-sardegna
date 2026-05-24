@@ -44,18 +44,16 @@ main {
 }
 
 .hero {
-  width: min(1180px, 100%);
+  width: min(980px, 100%);
   min-height: 100vh;
-  display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.82fr);
+  display: flex;
   align-items: center;
-  gap: clamp(24px, 5vw, 64px);
   margin: 0 auto;
   padding: clamp(28px, 6vw, 72px) 20px;
 }
 
 .hero-copy {
-  max-width: 680px;
+  max-width: 760px;
 }
 
 .eyebrow {
@@ -150,33 +148,14 @@ h2 {
 
 .whatsapp-button svg {
   flex: 0 0 auto;
-  width: 30px;
-  height: 30px;
-  color: var(--whatsapp);
+  width: 28px;
+  height: 28px;
+  color: #ffffff;
 }
 
 .secondary-button {
   color: var(--paper);
   border: 2px solid rgba(255, 255, 255, 0.72);
-}
-
-.note {
-  margin: 18px 0 0;
-  color: rgba(255, 249, 236, 0.78);
-  font-size: 0.95rem;
-}
-
-.poster-preview {
-  margin: 0;
-}
-
-.poster-preview img {
-  display: block;
-  width: 100%;
-  max-height: 74vh;
-  object-fit: contain;
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
 }
 
 .message-band {
@@ -238,6 +217,10 @@ h2 {
   border: 1px solid var(--line);
 }
 
+.download-item.is-pending {
+  opacity: 0.78;
+}
+
 .download-icon {
   width: 52px;
   height: 52px;
@@ -274,18 +257,8 @@ h2 {
 }
 
 @media (max-width: 760px) {
-  .hero {
-    grid-template-columns: 1fr;
-    min-height: auto;
-    padding-top: 32px;
-  }
-
   h1 {
     max-width: 9.5ch;
-  }
-
-  .poster-preview img {
-    max-height: none;
   }
 
   .actions {

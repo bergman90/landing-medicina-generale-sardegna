@@ -11,7 +11,10 @@ Landing page statica pronta per GitHub Pages.
 https://whatsapp.com/channel/INSERISCI-QUI-IL-TUO-CANALE
 ```
 
-I materiali scaricabili sono in `materiali/` e `assets/`.
+I materiali scaricabili definitivi andranno caricati in:
+
+- `materiali/` per la lettera in PDF
+- `assets/` per i JPEG della mobilitazione
 
 ## Pubblicazione su GitHub Pages
 
